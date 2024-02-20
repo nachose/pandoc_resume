@@ -1,28 +1,21 @@
-Johnny Coder
+Jose Ignacio Seco Sanz
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  I am looking for a job as analyst or senior programmer in Spain, preferably in Madrid,
+>  where I can use the knowledge acquired through my previous working experience in other
+>  companies as well as in my degree. I'm willing to undertake new responsibilities and to
+>  grow in my role as analyst/senior developer.
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+1998-2003
+:   Telecommunications Engineer,
+    Universidad de Alcala (Madrid)
 
 Experience
 ----------
@@ -86,9 +79,9 @@ Extra Section, Call it Whatever You Want
 
 * Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     *  Spanish       Mother tongue.
+     *  English       High.
+     *  French        Very basic.
 
 * Random tidbit
 
@@ -96,5 +89,5 @@ Extra Section, Call it Whatever You Want
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
+> <joseignacio.seco@gmail.com> • +34 617211349 • 43 years old\
 > address - Mytown, Mycountry
