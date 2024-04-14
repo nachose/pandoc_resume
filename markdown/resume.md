@@ -20,20 +20,44 @@ Education
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Astek**
+May 2023-Present day
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Senior backend developer working at Payments RND at Outpayce:
 
-* First item
+* EMV, DSS backends, working with C++, Oracle, python.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+* Tokenizer Gatewy working with Java, Quarkus, Podman, Kubernetes, Helm
 
-**That Other Job You Had**
+* Linux, Git, Bitbucket, REST apis, Jira, Confluence, Jenkins
 
-Also with a short description.
+**Ericsson**
+Dec 2021-April 2023
+
+Senior backend developer, working in Ercisson 4G and 5G evolved core gateways.
+
+* DPI(Deep packet inspection) library, for classification of traffic in Ericsson EPG(Evolved Core
+  Gageway) and PCG (Packet Core Gateway), inside Data Plane, inside User Plane.
+
+* Using C, C++, git, redhat, citrix, Jira, Confluence, Docker, Kubernetes, Helm, Jenkins
+
+**GMV**
+Oct2018-Dec2021
+
+Senior developer, working in both backend and frontend.
+
+* Working in MCC(Mission Control Center) for EPS2 project, for a satellite constellation for EUMESAT.
+Using all 4 types of enterprise integration: Shared dabases, files, RPC, and Messaging. Design and development. Migration from SLES
+11 to SLES 12. Migration to newer development platforms. Linux administration.
+
+* Backend is made predominantly with C++, frontend is made with Java.
+
+* Working with C++, Java, Python, Bash, in Linux SLES 12. Ant, maven, Jenkins.
+
+**Between**
+Sept2017-Oct2018
+
+
 
 Technical Experience
 --------------------
@@ -74,14 +98,14 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
-Extra Section, Call it Whatever You Want
+Others
 ----------------------------------------
 
 * Human Languages:
 
-     *  Spanish       Mother tongue.
-     *  English       High.
-     *  French        Very basic.
+     * Spanish:       Mother tongue.
+     * English:       High.
+     * French:        Very basic.
 
 * Random tidbit
 
@@ -90,4 +114,4 @@ Extra Section, Call it Whatever You Want
 ----
 
 > <joseignacio.seco@gmail.com> • +34 617211349 • 43 years old\
-> address - Mytown, Mycountry
+> C\\Sancho Garces el Mayor, nº1, 1ºB, Alcalá de Henares, Madrid.

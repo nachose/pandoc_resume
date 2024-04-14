@@ -1,0 +1,3 @@
+[submodule "markdown/pandoc_resume_doc"]
+	path = markdown/pandoc_resume_doc
+	url = git@github.com:nachose/pandoc_resume_doc.git
