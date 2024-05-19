@@ -1,63 +1,46 @@
-Jose Ignacio Seco Sanz
+Johnny Coder
 ============
 
 ----
 
->  I am looking for a job as analyst or senior programmer in Spain, preferably in Madrid,
->  where I can use the knowledge acquired through my previous working experience in other
->  companies as well as in my degree. I'm willing to undertake new responsibilities and to
->  grow in my role as analyst/senior developer.
+>  In this style, the resume starts with a blockquote, where
+>  you can briefly list your specialties, or include a salient
+>  quote. Ending a line with a backslash forces a line break.
 
 ----
 
 Education
 ---------
 
-1998-2003
-:   Telecommunications Engineer,
-    Universidad de Alcala (Madrid)
+2010-2014 (expected)
+:   **PhD, Computer Science**; Awesome University (MyTown)
+
+    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
+     Estimation Problem*
+
+2007-2010
+:   **BSc, Computer Science and Electrical Engineering**; University of
+    HomeTown (HomeTown)
+
+    *Minor: Awesomeology*
 
 Experience
 ----------
 
-**Astek**
-May 2023-Present day
+**Your Most Recent Work Experience:**
 
-Senior backend developer working at Payments RND at Outpayce:
+Short text containing the type of work done, results obtained,
+lessons learned and other remarks. Can also include lists and
+links:
 
-* EMV, DSS backends, working with C++, Oracle, python.
+* First item
 
-* Tokenizer Gatewy working with Java, Quarkus, Podman, Kubernetes, Helm
+* Item with [link](http://www.example.com). Links will work both in
+  the html and pdf versions.
 
-* Linux, Git, Bitbucket, REST apis, Jira, Confluence, Jenkins
+**That Other Job You Had**
 
-**Ericsson**
-Dec 2021-April 2023
-
-Senior backend developer, working in Ercisson 4G and 5G evolved core gateways.
-
-* DPI(Deep packet inspection) library, for classification of traffic in Ericsson EPG(Evolved Core
-  Gageway) and PCG (Packet Core Gateway), inside Data Plane, inside User Plane.
-
-* Using C, C++, git, redhat, citrix, Jira, Confluence, Docker, Kubernetes, Helm, Jenkins
-
-**GMV**
-Oct2018-Dec2021
-
-Senior developer, working in both backend and frontend.
-
-* Working in MCC(Mission Control Center) for EPS2 project, for a satellite constellation for EUMESAT.
-Using all 4 types of enterprise integration: Shared dabases, files, RPC, and Messaging. Design and development. Migration from SLES
-11 to SLES 12. Migration to newer development platforms. Linux administration.
-
-* Backend is made predominantly with C++, frontend is made with Java.
-
-* Working with C++, Java, Python, Bash, in Linux SLES 12. Ant, maven, Jenkins.
-
-**Between**
-Sept2017-Oct2018
-
-
+Also with a short description.
 
 Technical Experience
 --------------------
@@ -98,14 +81,14 @@ Programming Languages
 
 [ref]: https://github.com/githubuser/superlongprojectname
 
-Others
+Extra Section, Call it Whatever You Want
 ----------------------------------------
 
 * Human Languages:
 
-     * Spanish:       Mother tongue.
-     * English:       High.
-     * French:        Very basic.
+     * English (native speaker)
+     * ???
+     * This is what a nested list looks like.
 
 * Random tidbit
 
@@ -113,5 +96,5 @@ Others
 
 ----
 
-> <joseignacio.seco@gmail.com> • +34 617211349 • 43 years old\
-> C\\Sancho Garces el Mayor, nº1, 1ºB, Alcalá de Henares, Madrid.
+> <email@example.com> • +00 (0)00 000 0000 • XX years old\
+> address - Mytown, Mycountry
