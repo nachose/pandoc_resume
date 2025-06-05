@@ -6,6 +6,11 @@ STYLE=chmduquesne
 all: html pdf docx rtf
 
 pdf: init
+	# Get badge for codewars, then embed it.
+	wget -O codewars-badge.svg "https://www.codewars.com/users/nachose/badges/large"
+	rsvg-convert -o codewars-badge.png codewars-badge.svg
+
+
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
