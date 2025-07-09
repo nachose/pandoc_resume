@@ -28,6 +28,7 @@ make html
 
 Make everything
 
+** This the preferred method now **
 ```bash
 docker-compose up -d
 ```
