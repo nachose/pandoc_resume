@@ -1,5 +1,3 @@
-version: '2'
-
 services:
 
   resume-make:
@@ -7,7 +5,8 @@ services:
       context: .
       dockerfile: ./.docker/resume.dockerfile
     container_name: resume-make
-    entrypoint: /entrypoint.sh
     image: resume-make
+    working_dir: /home/app/resume
     volumes:
-      - .:/home/app/resume:z
+      - ./:/home/app/resume:z
+    command: sh -c "make all"
