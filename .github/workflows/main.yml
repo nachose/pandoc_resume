@@ -18,13 +18,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Test directory contents
         run: 'ls -al'
 
       - name: Build resume
-        uses: ./actions
+        uses: docker compose up --build
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
