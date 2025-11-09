@@ -46,7 +46,7 @@ rtf: init
 		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
 	done
 
-init: dir version
+init: dir version copy
 
 dir:
 	mkdir -p $(OUT_DIR)
@@ -58,6 +58,9 @@ version:
 	else \
 		SMART=--smart; \
 	fi \
+
+copy:
+	cp markdown/pandoc_resume_doc/resume.md markdown/
 
 clean:
 	rm -f $(OUT_DIR)/*
