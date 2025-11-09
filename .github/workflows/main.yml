@@ -24,7 +24,8 @@ jobs:
         run: 'ls -al'
 
       - name: Build resume
-        uses: docker compose up --build
+        uses: |
+          docker compose up --build
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
