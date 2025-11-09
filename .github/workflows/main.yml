@@ -19,7 +19,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Test directory contents
         run: 'ls -al'
 
@@ -27,7 +27,7 @@ jobs:
         uses: ./actions
 
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v4
         with:
           # Artifact name
           name: Resume PDF # optional, default is artifact
