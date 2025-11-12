@@ -60,7 +60,7 @@ version:
 	fi \
 
 copy:
-	cp markdown/pandoc_resume_doc/resume.md markdown/
+	yes | cp -f markdown/pandoc_resume_doc/resume.md markdown/
 
 clean:
 	rm -f $(OUT_DIR)/*
