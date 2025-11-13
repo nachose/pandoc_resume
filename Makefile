@@ -8,7 +8,7 @@ all: html pdf docx rtf
 pdf: init
 	# Get badge for codewars, then embed it.
 	wget -O codewars-badge.svg "https://www.codewars.com/users/nachose/badges/large"
-	rsvg-convert -o $(IN_DIR)/codewars-badge.png codewars-badge.svg
+	rsvg-convert -o $(IN_DIR)/codewars-badge.png $(IN_DIR)/codewars-badge.svg
 
 
 	for f in $(IN_DIR)/*.md; do \
