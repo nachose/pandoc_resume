@@ -17,7 +17,7 @@ pdf: init
 		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
 			--from markdown --to context \
 			--variable papersize=A4 \
-			--resource-path= markdown/ \
+			--resource-path= markdown \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
@@ -29,7 +29,7 @@ html: init
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
-			--resource-path= markdown/ \
+			--resource-path= markdown \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
 			--metadata pagetitle=$$FILE_NAME;\
 	done
@@ -38,14 +38,14 @@ docx: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.docx; \
-		pandoc --standalone $$SMART $$f --resource-path=markdown/ --output $(OUT_DIR)/$$FILE_NAME.docx; \
+		pandoc --standalone $$SMART $$f --resource-path=markdown --output $(OUT_DIR)/$$FILE_NAME.docx; \
 	done
 
 rtf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.rtf; \
-		pandoc --standalone $$SMART $$f --resource-path=markdown/  --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+		pandoc --standalone $$SMART $$f --resource-path=markdown  --output $(OUT_DIR)/$$FILE_NAME.rtf; \
 	done
 
 init: dir version copy
