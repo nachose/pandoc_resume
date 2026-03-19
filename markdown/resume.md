@@ -1,53 +1,71 @@
-Jose Ignacio Seco Sanz
-============
+# Jose Ignacio Seco Sanz
 
-----
+---
 
->  I am seeking a position as an Analyst or Senior Developer where I can apply the skills and knowledge
->  gained through my professional experience and academic background. I am eager to take on new
->  challenges, expand my responsibilities, and continue growing in a dynamic and collaborative
->  environment.
+> I am seeking a position as an Analyst or Senior Developer where I can apply the skills and knowledge
+> gained through my professional experience and academic background. I am eager to take on new
+> challenges, expand my responsibilities, and continue growing in a dynamic and collaborative
+> environment.
 
-----
+---
 
-Education
----------
+## Education
 
 1998-2003
-:   Telecommunications Engineer,
-    Universidad de Alcala (Madrid)
+: Telecommunications Engineer,
+Universidad de Alcala (Madrid)
 
 1998-2003
-:   English in EOI (Escuela oficial de Idiomas)
+: English in EOI (Escuela oficial de Idiomas)
 
-Experience
-----------
+## Experience
+
+**SIIGroup**
+Aug 2025-Present day.
+
+Senior backend developer working at Thales SIP in Border Control Systems.
+
+- Java 8 to 21.
+- Using Spring Boot, Lombok, JUnit, Arquillian, in microservices.
+- REST APIs, SoapUI, Kafka, Kibana.
+- Also frontend development using Angular.
+- Using Bitbucket, Git, Jira, Confluence.
 
 **Astek**
-Dec 2021-Present day
+April 2023-May 2025
 
 Senior backend developer working at Payments RND at Outpayce:
 
-* EMV, DSS backends, working with modern C++, Oracle, python, Control-M.
+- EMV, DSS backends, working with modern C++, Oracle, python, Control-M.
 
-* Tokenizer Gatewy working with Java, Quarkus, Podman, Docker, Kubernetes, Helm, Prometheus
+- Tokenizer Gatewy working with Java, Quarkus, Podman, Docker, Kubernetes, Helm, Prometheus
   Distributed system using REST, using microservices architecture, Elasticsearch and Kibana,
   Prometheus and Grafana, argocd, Openshift, Swagger/OpenApi, Postman, JUnit, Mockito, JakartaEE.
 
-* Linux, Git, Bitbucket, REST apis, Jira, Confluence, Jenkins, Kafka, Splunk,Azure
+- Linux, Git, Bitbucket, REST apis, Jira, Confluence, Jenkins, Kafka, Splunk,Azure
+
+**Ericsson**
+Dec 2021-April 2023
+
+Senior backend developer, working in Ercisson 4G and 5G evolved core gateways.
+
+- DPI(Deep packet inspection) library, for classification of traffic in Ericsson EPG(Evolved Core
+  Gageway) and PCG (Packet Core Gateway), inside Data Plane, inside User Plane.
+
+- Using C, C++, git, redhat, citrix, Jira, Confluence, Docker, Kubernetes, Helm, Jenkins
 
 **GMV**
 Oct2018-Dec2021
 
 Senior developer, working in both backend and frontend.
 
-* Working in MCC(Mission Control Center) for EPS2 project, for a satellite constellation for EUMESAT.
-Using all 4 types of enterprise integration: Shared dabases, files, RPC, and Messaging. Design and development. Migration from SLES
-11 to SLES 12. Migration to newer development platforms. Linux administration.
+- Working in MCC(Mission Control Center) for EPS2 project, for a satellite constellation for EUMESAT.
+  Using all 4 types of enterprise integration: Shared dabases, files, RPC, and Messaging. Design and development. Migration from SLES
+  11 to SLES 12. Migration to newer development platforms. Linux administration.
 
-* Backend is made predominantly with C++, frontend is made with Java.
+- Backend is made predominantly with C++, frontend is made with Java.
 
-* Working with C++, Java, Python, Bash, in Linux SLES 12. Ant, maven, Jenkins, EclipseRCP, ActiveMQ,
+- Working with C++, Java, Python, Bash, in Linux SLES 12. Ant, maven, Jenkins, EclipseRCP, ActiveMQ,
   JUnit, Spring.
 
 **Between**
@@ -58,10 +76,9 @@ Senior software developer, working in both frontend and backend.
 Working in SIDERA. SIDERA is an ITS(Intelligent Transportation System) SCADA to manage road
 equipment. Allows data acquitsition, monitoring and control of devices installed in road.
 
-* Backend is C++ in Windows. Frontend is Visual Basic and C# also in windows.
+- Backend is C++ in Windows. Frontend is Visual Basic and C# also in windows.
 
-* Working with SQL Server, Winforms and WPF, Subversion.
-
+- Working with SQL Server, Winforms and WPF, Subversion.
 
 **Oesia Networks**
 Sept2007-Oct2016
@@ -71,7 +88,7 @@ Developed for 50+ years. Working in the electricity subsystem
 
 3d design: FCABLE
 2d desgin: FSYSD
-Reports:   Frepelec, Frepg
+Reports: Frepelec, Frepg
 
 Working with Windows, Visual Studio, Qt3 and Qt4, Oracle 11, stl, boost, tcl, Team City
 
@@ -84,52 +101,50 @@ SGI (Sistema de gestion de incidencias)
 
 C++, Visual Basic 6, Visual Basic.NET, Oracle, ClearCase, Remedy, InstallShield.
 
-
-
-Technical Experience
---------------------
+## Technical Experience
 
 Programming Languages
-:   **C++:** Working with C++ most of my career, doing backend
-    but also guis with Qt. Using up to C++20 standard.
-    Using Qt, Boost, Apache xerces, absail, rapidxml, cppunit, gtest and gmock,
-    cmake, ant, ninja, msbuild.
+: **C++:** Working with C++ most of my career, doing backend
+but also guis with Qt. Using up to C++20 standard.
+Using Qt, Boost, Apache xerces, absail, rapidxml, cppunit, gtest and gmock,
+cmake, ant, ninja, msbuild.
 
-:   **java:** Working as a java backend engineer also, but a little experience
-    doing ui work, using java 17.
-    Using docker, podman, kubernetes, helm, EclipseRCP, Spring, Quarkus, jackson and jax-rs, Kafka.
+: **java:** Working as a java backend engineer also, but a little experience
+doing ui work, using java 17.
+Using docker, podman, kubernetes, helm, EclipseRCP, Spring, Quarkus, jackson and jax-rs, Kafka.
 
-:   **other languages** I've worked with bash, python, javascript, tcl, .net.
+: **other languages** I've worked with bash, python, javascript, tcl, .net.
 
 Other skills:
-:   Object Oriented Analysis and Design, Microservices, software integration, enterprise integration,
-    TDD-Test driven development
+: Object Oriented Analysis and Design, Microservices, software integration, enterprise integration,
+TDD-Test driven development
 
 Links
-:   [github](https://github.com/nachose) : https://github.com/nachose
-:   [codewars](https://www.codewars.com/users/nachose) : https://www.codewars.com/users/nachose
-:   &nbsp;&nbsp;&nbsp;&nbsp;![Codewars Badge](markdown/codewars-badge.png){ width=4in }
-:   [goodreads](https://www.goodreads.com/review/list/37185151-jose-seco-sanz?ref=nav_mybooks&shelf=technical) : </br>
-        https://www.goodreads.com/review/list/37185151-jose-seco-sanz?ref=nav_mybooks&shelf=</br>
-        technical
+: [github](https://github.com/nachose) : https://github.com/nachose
+: [codewars](https://www.codewars.com/users/nachose) : https://www.codewars.com/users/nachose
+: &nbsp;&nbsp;&nbsp;&nbsp;![Codewars Badge](markdown/codewars-badge.png){ width=4in }
+: [goodreads](https://www.goodreads.com/review/list/37185151-jose-seco-sanz?ref=nav_mybooks&shelf=technical) : </br>
+https://www.goodreads.com/review/list/37185151-jose-seco-sanz?ref=nav_mybooks&shelf=</br>
+technical
 
 Courses
-:   Lots of courses over the years, recently the most relevant:
-:     - Docker and Kubernetes.
-:     - Software Architecture.
-:     - Safe Practicioner 6.0 (Certified 2023)
+: Lots of courses over the years, recently the most relevant:
+: - Docker and Kubernetes.
+: - Software Architecture.
+: - Safe Practicioner 6.0 (Certified 2023)
 
+## Others
 
-Others
-----------------------------------------
+- Human Languages:
+  - Spanish: Mother tongue.
+  - English: High.
+  - French: Very basic.
 
-* Human Languages:
+- Author.
+  Authored several books, some of them on programming/development topics, AI assisted. Can be found
+  on Amazon.
 
-     * Spanish:       Mother tongue.
-     * English:       High.
-     * French:        Very basic.
-
-----
+---
 
 > <joseignacio.seco@gmail.com> • +34 617211349 </br></br>
-:> C\\Sancho Garces el Mayor, nº1, 10, 1ºB, Alcalá de Henares, Madrid.
+> :> C\\Sancho Garces el Mayor, nº1, 10, 1ºB, Alcalá de Henares, Madrid.

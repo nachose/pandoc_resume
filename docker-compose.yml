@@ -7,6 +7,7 @@ services:
     container_name: resume-make
     image: resume-make
     working_dir: /home/app/resume
+    user: "${UID:-1000}:${GID:-1000}"
     volumes:
       - ./:/home/app/resume:z
     command: sh -c "make all"
