@@ -7,9 +7,8 @@ all: html pdf docx rtf
 
 pdf: init
 	# Get badge for codewars, then embed it.
-	wget -O codewars-badge.svg "https://www.codewars.com/users/nachose/badges/large"
-	rsvg-convert -o $(IN_DIR)/codewars-badge.png codewars-badge.svg
-
+	wget -O $(IN_DIR)/codewars-badge.svg "https://www.codewars.com/users/nachose/badges/large"
+	rsvg-convert --width 1440 --height 200 -o $(IN_DIR)/codewars-badge.png $(IN_DIR)/codewars-badge.svg
 
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
@@ -18,6 +17,7 @@ pdf: init
 			--from markdown --to context \
 			--variable papersize=A4 \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+		sed -i 's/~~~~//g' $(OUT_DIR)/$$FILE_NAME.tex; \
 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
 

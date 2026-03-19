@@ -121,11 +121,12 @@ TDD-Test driven development
 
 Links
 : [github](https://github.com/nachose) : https://github.com/nachose
-: [codewars](https://www.codewars.com/users/nachose) : https://www.codewars.com/users/nachose
-: &nbsp;&nbsp;&nbsp;&nbsp;![Codewars Badge](markdown/codewars-badge.png){ width=4in }
 : [goodreads](https://www.goodreads.com/review/list/37185151-jose-seco-sanz?ref=nav_mybooks&shelf=technical) : </br>
 https://www.goodreads.com/review/list/37185151-jose-seco-sanz?ref=nav_mybooks&shelf=</br>
 technical
+: [codewars](https://www.codewars.com/users/nachose) : https://www.codewars.com/users/nachose
+
+<div align="center">![Codewars Badge](markdown/codewars-badge.png){ width=4in }</div>
 
 Courses
 : Lots of courses over the years, recently the most relevant:

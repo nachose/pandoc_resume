@@ -1,6 +1,6 @@
 FROM pandoc/latex:2.9
 
-RUN apk add make texlive
+RUN apk add make texlive font-noto-cjk
 
 ENV TEXMF /usr/share/texmf-dist
 
